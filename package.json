@@ -1,0 +1,37 @@
+{
+  "name": "trijam-12",
+  "version": "1.0.0",
+  "description": "My entry for the Trijam 12 contest put on by Rocknight Studios!",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --entry ./src/game.js --open",
+    "build": "webpack --mode production --entry ./src/game.js --output ./dist/game.js",
+    "dev": "webpack --mode development --entry ./src/game.js --output ./dist/game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saricden/trijam-12.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/saricden/trijam-12/issues"
+  },
+  "homepage": "https://github.com/saricden/trijam-12#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^5.0.2",
+    "css-loader": "^2.1.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "phaser": "^3.16.2"
+  }
+}
